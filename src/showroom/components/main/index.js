@@ -1,0 +1,1 @@
+export { default as ShowroomMainComponent } from './main'

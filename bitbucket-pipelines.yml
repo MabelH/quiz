@@ -1,0 +1,38 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+image: jainath/nodejs8-aws-cli
+pipelines:
+  default:
+    - step:
+        name: Install and Test
+        script:
+          - sh scripts/test.sh
+  branches:
+    master:
+      - step:
+          name: Install and Test
+          script:
+            - sh scripts/test.sh
+          artifacts:
+            - node_modules/**
+      - step:
+          name: Build and deploy
+          deployment: production
+          script:
+            - npm run build
+            - aws s3 sync --delete ./dist s3://ubuildit-monday
+    development:
+      - step:
+          name: Install and Test
+          script:
+            - sh scripts/test.sh
+          artifacts:
+            - node_modules/**
+      - step:
+          name: Build and deploy
+          deployment: test
+          script:
+            - npm run build
+            - aws s3 sync --delete ./dist s3://ubuildit-monday-qa

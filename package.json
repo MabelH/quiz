@@ -1,0 +1,76 @@
+{
+  "name": "ub-monday-frontend",
+  "version": "0.0.1",
+  "description": "Frontend for UBuildit Monday Project",
+  "private": true,
+  "scripts": {
+    "start": "source scripts/env.dev.sh && webpack-dev-server --config webpack.config.dev.js --open 'Google Chrome'",
+    "test": "jest --coverage",
+    "test:ci": "jest --ci",
+    "test:watch": "jest --watch",
+    "eslint": "eslint src/ --cache",
+    "eslint:fix": "eslint src/ --cache --fix",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "engine": {
+    "node": "8.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gregsolo@bitbucket.org/digitalrigbitbucketteam/ub-monday-frontend.git"
+  },
+  "author": "Buildit@Wipro Digital",
+  "license": "ISC",
+  "homepage": "http://ubuildit-monday.s3-website-us-east-1.amazonaws.com",
+  "dependencies": {
+    "@aws-amplify/api": "^1.0.15",
+    "@aws-amplify/auth": "^1.2.4",
+    "amazon-cognito-identity-js": "^3.0.1",
+    "bootstrap": "^4.1.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^4.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.5.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "pre-commit": "^1.2.2",
+    "sass-loader": "^7.1.0",
+    "script-ext-html-webpack-plugin": "^2.0.1",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "pre-commit": [
+    "eslint",
+    "test:ci"
+  ]
+}

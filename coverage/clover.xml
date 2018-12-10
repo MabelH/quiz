@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1544221263156" clover="3.2.0">
+  <project timestamp="1544221263156" name="All files">
+    <metrics statements="79" coveredstatements="35" conditionals="9" coveredconditionals="2" methods="34" coveredmethods="5" elements="122" coveredelements="42" complexity="0" loc="79" ncloc="79" packages="19" files="28" classes="28">
+      <package name="monday-frontend">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="setupTests.js" path="/Users/jamesmuller/Training/monday-frontend/setupTests.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="7" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="constants.js" path="/Users/jamesmuller/Training/monday-frontend/src/constants.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.app.components">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/app/components/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.app.components.app">
+        <metrics statements="18" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <file name="app.js" path="/Users/jamesmuller/Training/monday-frontend/src/app/components/app/app.js">
+          <metrics statements="18" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/app/components/app/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.app.containers.app">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="app.js" path="/Users/jamesmuller/Training/monday-frontend/src/app/containers/app/app.js">
+          <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.auth">
+        <metrics statements="9" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="actions.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/actions.js">
+          <metrics statements="9" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.auth.components">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/components/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.auth.components.authForm">
+        <metrics statements="18" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="5" coveredmethods="2"/>
+        <file name="authForm.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/components/authForm/authForm.js">
+          <metrics statements="18" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="5" coveredmethods="2"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/components/authForm/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.auth.components.signUp">
+        <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/components/signUp/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="signUp.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/components/signUp/signUp.js">
+          <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.auth.containers.signUp">
+        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <file name="signUp.js" path="/Users/jamesmuller/Training/monday-frontend/src/auth/containers/signUp/signUp.js">
+          <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.questions">
+        <metrics statements="7" coveredstatements="3" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="actions.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/actions.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+        <file name="constants.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/constants.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="reducers.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/reducers.js">
+          <metrics statements="4" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.questions.components">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/components/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.questions.components.questions">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/components/questions/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="questions.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/components/questions/questions.js">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.questions.containers">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/containers/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.questions.containers.questions">
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/containers/questions/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="questions.js" path="/Users/jamesmuller/Training/monday-frontend/src/questions/containers/questions/questions.js">
+          <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.shared">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/shared/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.shared.components">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/shared/components/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.shared.components.spinner">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/shared/components/spinner/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="spinner.js" path="/Users/jamesmuller/Training/monday-frontend/src/shared/components/spinner/spinner.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="monday-frontend.src.shared.containers">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesmuller/Training/monday-frontend/src/shared/containers/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

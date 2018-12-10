@@ -1,0 +1,1 @@
+export { ShowroomMainComponent } from './main'
